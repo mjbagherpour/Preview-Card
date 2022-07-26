@@ -1,0 +1,141 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.border {
+    background-color: white;
+    border: #F2EBE3 solid;
+    margin: 218px;
+    padding: 18px;
+    width: 517px;
+    height: 389px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+h1 {
+    pointer-events: none;
+    font-family: 'Fraunces', serif;
+    margin-left: 284px;
+    margin-top: -350px;
+    text-align: left
+}
+
+h4 {
+    pointer-events: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -155px;
+    margin-left: 150px;
+    color: #A6A6AE;
+}
+
+img {
+    pointer-events: none;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 277px;
+    height: 425px;
+    margin: -18px;
+    margin-right: 100%;
+}
+
+.info1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-left: 288px;
+    margin-top: 140px;
+    color: #A4A3A7;
+    text-align: left;
+}
+
+.btn {
+    display: inline-block;
+    font-family: serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: 10px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.move-btn {
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 276px;
+    margin-top: -10px;
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .btn {
+        transition: none
+    }
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #3D8168;
+    border-color: #3D8168
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #3D8110;
+    border-color: #3D8110
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    color: #fff;
+    background-color: #3D8168;
+    border-color: #3D8168;
+}
+
+.btn-check:active+.btn-primary,
+.btn-check:checked+.btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #3D8168;
+    border-color: #3D8168
+}
+
+.btn-check:active+.btn-primary:focus,
+.btn-check:checked+.btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .25rem #3D8140
+}
+
+.price-org {
+    color: #3D8168;
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    margin-left: 175px;
+}

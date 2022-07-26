@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" media="screen and (min-width: 700px)" href="./css/desktopscreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 700px)" href="./css/mobilescreen.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Product preview card component</title>
+  <style>
+    @media screen and (max-width: 700px) {
+      .img-desktop {
+        display: none;
+      }
+    }
+
+    @media screen and (min-width: 700px) {
+      .img-mobile {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <div class="border">
+      <img class="img-desktop" src="./images/image-product-desktop.jpg" alt="Desktop">
+      <img class="img-mobile" src="./images/image-product-mobile.jpg" alt="Mobile">
+      <h1>Gabrielle Essence Eau De Parfum</h1>
+      <h4>P E R F U ME</h4>
+      <p class="info1">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.</p>
+      <p class="price-org">$149.99</p>
+      <button class="btn move-btn btn-primary">
+        <i class="fa fa-shopping-cart"></i>
+        Add to Cart
+      </button>
+    </div>
+  </form>
+</body>
+
+</html>
